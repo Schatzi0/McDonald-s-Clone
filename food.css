@@ -1,0 +1,56 @@
+.Outer{
+    /* box-shadow: rgb(0 0 0 / 60%) 0px 0px 1rem; */
+    border: 1px solid gray;
+    /* background-color: rgba(255, 255, 255, 0.25); */
+    border-radius: 5px;
+    display: none;
+    position: relative;
+    top: 0.1rem;
+    padding: 1rem 0;
+}
+.ForFoodMenu{
+    margin: auto;
+    width: fit-content;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 10px; */
+}
+.ForFood{
+    /* border: 1px solid red; */
+    width: 1200px;
+    margin: auto;
+}
+.Food{
+    margin: auto;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 1rem;
+    list-style: none;
+}
+.text{
+    position: relative;
+    top: -2rem;
+    left: 2rem;
+}
+.foodbtn{
+    border: 1px solid #adadad;
+    border-radius: 5px;
+    background: #fff;
+    color: #292929;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 13px 15px;
+    font-size: 1rem;
+    /* text-align: center; */
+}
+.foodbtn:hover, .foodimage img:hover{
+    /* box-shadow: 0 0.09375rem 0.09375rem 0 rgb(0 0 0 ); */
+    transform: translateY(-10px);
+
+}
